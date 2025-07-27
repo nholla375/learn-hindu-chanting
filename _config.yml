@@ -16,8 +16,7 @@
 title: "Learn Hindu Chanting"
 email:
 description: "Step-by-step guides, audio, and pronunciation help for beginner shlokas"
-twitter_username: username
-github_username: username
+github_username: nholla375
 minimal_mistakes_skin: default
 search: true
 
@@ -55,34 +54,25 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Naren Holla"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Hey! I'm a high schooler passionate about teaching proper chanting etiquette to those willing to learn."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://nholla375.github.io/learn-hindu-chanting"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/nholla375"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/naren.h09/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/nholla375"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/naren.h09/"
 
 defaults:
   # _posts
