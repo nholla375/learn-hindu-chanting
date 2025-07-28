@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Learn Hindu Chanting"
-email:
+email:naren.holla543@gmail.com
 description: "Step-by-step guides, audio, and pronunciation help for beginner shlokas"
 github_username: nholla375
 minimal_mistakes_skin: default
