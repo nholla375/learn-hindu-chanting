@@ -36,12 +36,12 @@ This chant is particularly suited for **initiating study, rituals, or spiritual 
 
 ## 🔊 Listen to the Chant
 
-🎧 [Click here to listen](audio/ganaanaam-tva-ganapatim.mp3)
-*(Yajurveda style, chanted clearly for learning)*
+🎧 [Click here to listen](/assets/audio/gananam-tva.mp3)
 
 <audio controls>
-  <source src="audio/gananam-tva.mp3" type="audio/mpeg">
+  <source src="/assets/audio/gananam-tva.mp3" type="audio/mpeg">
 </audio>
+
 
 ---
 
