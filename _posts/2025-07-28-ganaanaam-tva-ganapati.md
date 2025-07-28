@@ -36,12 +36,9 @@ This chant is particularly suited for **initiating study, rituals, or spiritual 
 
 ## 🔊 Listen to the Chant
 
-🎧 [Click here to listen](/assets/audio/gananam-tva.mp3)
-
 <audio controls>
-  <source src="/assets/audio/gananam-tva.mp3" type="audio/mpeg">
+  <source src="/learn-hindu-chanting/assets/audio/gananam-tva.mp3" type="audio/mpeg">
 </audio>
-
 
 ---
 
