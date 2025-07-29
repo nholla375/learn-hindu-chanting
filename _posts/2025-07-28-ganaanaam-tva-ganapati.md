@@ -7,8 +7,8 @@ Description: Learn the sacred Ganapati mantra from the Yajurveda with audio and 
 ## 🕉️ Chant Text
 
 <div id="script-toggle" style="margin-bottom: 1em;">
-  <button onclick="showDeva()">Devanagari</button>
-  <button onclick="showIAST()">IAST</button>
+  <button id="btn-deva" onclick="showDeva()">Devanagari</button>
+  <button id="btn-iast" onclick="showIAST()">IAST</button>
 </div>
 
 <div id="devanagari" style="display: block;">
@@ -71,9 +71,13 @@ Skip to 2:26 for the entire shloka once without repeats.
 function showDeva() {
   document.getElementById('devanagari').style.display = 'block';
   document.getElementById('iast').style.display = 'none';
+  document.getElementById('btn-deva').style.fontWeight = 'bold';
+  document.getElementById('btn-iast').style.fontWeight = 'normal';
 }
 function showIAST() {
   document.getElementById('devanagari').style.display = 'none';
   document.getElementById('iast').style.display = 'block';
+  document.getElementById('btn-deva').style.fontWeight = 'normal';
+  document.getElementById('btn-iast').style.fontWeight = 'bold';
 }
 </script>
