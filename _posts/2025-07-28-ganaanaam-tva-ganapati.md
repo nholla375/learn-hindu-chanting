@@ -42,6 +42,23 @@ Description: Learn the sacred Ganapati mantra from the Yajurveda with audio and 
 </div>
 ---
 
+## 🔊 Listen to the Chant
+
+<audio controls>
+  <source src="/learn-hindu-chanting/assets/audio/gananam-tva.mp3" type="audio/mpeg">
+</audio>
+Skip to 2:26 for the entire shloka once without repeats.
+<div style="margin-bottom: 1em;">
+  <label>
+    <input type="checkbox" id="autoscroll-toggle" checked>
+    Auto-scroll with chant
+  </label>
+</div>
+
+🙏 Feel free to repeat along, slow the chant, and refer to the transliteration above to master pronunciation.
+
+---
+
 ## 🪔 Significance
 
 This is one of the most revered mantras to **Lord Ganesha** from the **Yajurveda (Taittiriya Aranyaka 10.11.1)**. It is traditionally chanted at the beginning of Vedic rituals to invoke Ganesha, the remover of obstacles and the lord of beginnings.
@@ -51,18 +68,6 @@ This is one of the most revered mantras to **Lord Ganesha** from the **Yajurveda
 - The mantra invites him to **dwell in the sacred seat of worship** and bless the chanter with guidance and protection.
 
 This chant is particularly suited for **initiating study, rituals, or spiritual learning**.
-
----
-
-## 🔊 Listen to the Chant
-
-<audio controls>
-  <source src="/learn-hindu-chanting/assets/audio/gananam-tva.mp3" type="audio/mpeg">
-</audio>
-
-Skip to 2:26 for the entire shloka once without repeats.
-
-🙏 Feel free to repeat along, slow the chant, and refer to the transliteration above to master pronunciation.
 
 ---
 
@@ -84,13 +89,15 @@ function showIAST() {
 <script>
 const audio = document.querySelector('audio');
 const devanagariVisible = () => document.getElementById('devanagari').style.display !== 'none';
+const shouldScroll = () => document.getElementById('autoscroll-toggle')?.checked;
 
-// Scroll to chant section when audio starts
+// Scroll to chant on play — but only if toggle is on
 audio.addEventListener('play', () => {
-  document.getElementById('chant-start').scrollIntoView({ behavior: 'smooth' });
+  if (shouldScroll()) {
+    document.getElementById('chant-start')?.scrollIntoView({ behavior: 'smooth' });
+  }
 });
 
-// Highlight lines as audio plays
 audio.ontimeupdate = () => {
   const t = audio.currentTime;
 
@@ -113,11 +120,14 @@ audio.ontimeupdate = () => {
 
     if (t >= start && t < end) {
       el.style.backgroundColor = 'yellow';
-      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      if (shouldScroll()) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
     } else {
       el.style.backgroundColor = '';
     }
   });
 };
 </script>
+
 
