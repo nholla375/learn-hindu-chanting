@@ -4,6 +4,7 @@ Date: 2025-07-28
 Description: Learn the sacred Ganapati mantra from the Yajurveda with audio and guidance.
 ---
 
+<div id="chant-start"></div>
 ## 🕉️ Chant Text
 
 <div id="script-toggle" style="margin-bottom: 1em;">
@@ -12,34 +13,32 @@ Description: Learn the sacred Ganapati mantra from the Yajurveda with audio and 
 </div>
 
 <div id="devanagari" style="display: block;">
-<p>ओम् श्री गुरुभ्यो नमः हरिः ओम्</p>
+<p id="line1">ओम् श्री गुरुभ्यो नमः हरिः ओम्</p>
 <p>  </p>
-<p>गणानां त्वा गणपतिग्ं हवामहे</p>
-<p>कविं कवीनामुपमश्रवस्तमम् ।</p>
-<p>ज्येष्ठराजं ब्रह्मणां ब्रह्मणस्पत आ नः शृण्वन्नूतिभिः सीद सादनम् ॥</p>
-<p>महागणपतये नमः ।</p>
+<p id="line2">गणानां त्वा गणपतिग्ं हवामहे कविं कवीनामुपमश्रवस्तमम् ।</p>
+<p id="line3">ज्येष्ठराजं ब्रह्मणां ब्रह्मणस्पत आ नः शृण्वन्नूतिभिः सीद सादनम् ॥</p>
+<p id="line4">महागणपतये नमः ।</p>
 <p>  </p>
-<p>प्रणो देवी सरस्वती वाजेभिर्वाजिनीवती ।</p>
-<p>धीनाम वित्रियवतु ।</p>
-<p>आ नो दिवो बृहतः पर्वतादा सरस्वती यजता गन्तु यज्ञम् ।</p>
-<p>हवं देवि जुजुषाणा घॄताची शग्मां नो वाचमुशती श्रुणोतु।</p>
-<p>वाग्देव्यै नमः ॥</p>
+<p id="line5">प्रणो देवी सरस्वती वाजेभिर्वाजिनीवती ।</p>
+<p id="line6">धीनाम वित्रियवतु ।</p>
+<p id="line7">आ नो दिवो बृहतः पर्वतादा सरस्वती यजता गन्तु यज्ञम् ।</p>
+<p id="line8">हवं देवि जुजुषाणा घॄताची शग्मां नो वाचमुशती श्रुणोतु।</p>
+<p id="line9">वाग्देव्यै नमः ॥</p>
 </div>
 
 
 <div id="iast" style="display: none;">
-<p>om śrī gurubhyo namaḥ hariḥ om</p>
+<p id="line1-roman">om śrī gurubhyo namaḥ hariḥ om</p>
 <p>  </p>
-<p>gaṇānāṃ tvā gaṇapatigṃ havāmahe |</p>
-<p>kaviM kavīnāmupamaśravastamam |</p>
-<p>jyeṣṭharājaṃ brahmaṇāṃ brahmaṇaspata ā naḥ śṛṇvannūtibhiḥ sīda sādanam ||</p>
-<p>mahāgaṇapataye namaḥ |</p>
+<p id="line2-roman">gaṇānāṃ tvā gaṇapatigṃ havāmahe kaviM kavīnāmupamaśravastamam |</p>
+<p id="line3-roman">jyeṣṭharājaṃ brahmaṇāṃ brahmaṇaspata ā naḥ śṛṇvannūtibhiḥ sīda sādanam ||</p>
+<p id="line4-roman">mahāgaṇapataye namaḥ |</p>
 <p>  </p>
-<p>praṇo devī sarasvatī vājebhirvājinīvatī |</p>
-<p>dhīnāma vitriyavatu |</p>
-<p>ā no divo bṛhataḥ parvatādā sarasvatī yajatā gantu yajñam |</p>
-<p>havaṃ devi jujuṣāṇā ghṝtācī śagmāṃ no vācamuśatī śruṇotu|</p>
-<p>vāgdevyai namaḥ ||</p>
+<p id="line5-roman">praṇo devī sarasvatī vājebhirvājinīvatī |</p>
+<p id="line6-roman">dhīnāma vitriyavatu |</p>
+<p id="line7-roman">ā no divo bṛhataḥ parvatādā sarasvatī yajatā gantu yajñam |</p>
+<p id="line8-roman">havaṃ devi jujuṣāṇā ghṝtācī śagmāṃ no vācamuśatī śruṇotu|</p>
+<p id="line9-roman">vāgdevyai namaḥ ||</p>
 </div>
 ---
 
@@ -81,3 +80,44 @@ function showIAST() {
   document.getElementById('btn-iast').style.fontWeight = 'bold';
 }
 </script>
+
+<script>
+const audio = document.querySelector('audio');
+const devanagariVisible = () => document.getElementById('devanagari').style.display !== 'none';
+
+// Scroll to chant section when audio starts
+audio.addEventListener('play', () => {
+  document.getElementById('chant-start').scrollIntoView({ behavior: 'smooth' });
+});
+
+// Highlight lines as audio plays
+audio.ontimeupdate = () => {
+  const t = audio.currentTime;
+
+  const lines = [
+    { id: 'line1', roman: 'line1-roman', start: 0, end: 12 },
+    { id: 'line2', roman: 'line2-roman', start: 12, end: 36 },
+    { id: 'line3', roman: 'line3-roman', start: 36, end: 61 },
+    { id: 'line4', roman: 'line4-roman', start: 61, end: 72 },
+    { id: 'line5', roman: 'line5-roman', start: 72, end: 89 },
+    { id: 'line6', roman: 'line6-roman', start: 89, end: 98 },
+    { id: 'line7', roman: 'line7-roman', start: 98, end: 118 },
+    { id: 'line8', roman: 'line8-roman', start: 118, end: 138 },
+    { id: 'line9', roman: 'line9-roman', start: 138, end: 146 }
+  ];
+
+  lines.forEach(({ id, roman, start, end }) => {
+    const visibleId = devanagariVisible() ? id : roman;
+    const el = document.getElementById(visibleId);
+    if (!el) return;
+
+    if (t >= start && t < end) {
+      el.style.backgroundColor = 'yellow';
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    } else {
+      el.style.backgroundColor = '';
+    }
+  });
+};
+</script>
+
