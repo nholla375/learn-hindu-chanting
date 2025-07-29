@@ -37,7 +37,7 @@ This chant is particularly suited for **initiating study, rituals, or spiritual 
 ## 🔊 Listen to the Chant
 
 <audio controls>
-  <source src="/learn-hindu-chanting/assets/audio/Gananam-Tva.mp3" type="audio/mpeg">
+  <source src="/learn-hindu-chanting/assets/audio/gananam-tva.mp3" type="audio/mpeg">
 </audio>
 
 Skip to 2:26 for the entire shloka once without repeats.
