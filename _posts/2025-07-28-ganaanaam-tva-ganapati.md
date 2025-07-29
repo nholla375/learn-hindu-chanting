@@ -5,6 +5,14 @@ Description: Learn the sacred Ganapati mantra from the Yajurveda with audio and 
 ---
 
 <div id="chant-start"></div>
+
+<div style="margin-bottom: 1em;">
+  <label>
+    <input type="checkbox" id="autoscroll-toggle" checked>
+    Auto-scroll with chant
+  </label>
+</div>
+
 ## 🕉️ Chant Text
 
 <div id="script-toggle" style="margin-bottom: 1em;">
@@ -47,13 +55,8 @@ Description: Learn the sacred Ganapati mantra from the Yajurveda with audio and 
 <audio controls>
   <source src="/learn-hindu-chanting/assets/audio/gananam-tva.mp3" type="audio/mpeg">
 </audio>
+
 Skip to 2:26 for the entire shloka once without repeats.
-<div style="margin-bottom: 1em;">
-  <label>
-    <input type="checkbox" id="autoscroll-toggle" checked>
-    Auto-scroll with chant
-  </label>
-</div>
 
 🙏 Feel free to repeat along, slow the chant, and refer to the transliteration above to master pronunciation.
 
