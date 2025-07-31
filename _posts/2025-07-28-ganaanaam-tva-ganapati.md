@@ -6,13 +6,6 @@ Description: Learn the sacred Ganapati mantra from the Yajurveda with audio and 
 
 <div id="chant-start"></div>
 
-<div style="margin-bottom: 1em;">
-  <label>
-    <input type="checkbox" id="autoscroll-toggle" checked>
-    Auto-scroll with chant
-  </label>
-</div>
-
 ## 🕉️ Chant Text
 
 <div id="script-toggle" style="margin-bottom: 1em;">
@@ -94,12 +87,6 @@ const audio = document.querySelector('audio');
 const devanagariVisible = () => document.getElementById('devanagari').style.display !== 'none';
 const shouldScroll = () => document.getElementById('autoscroll-toggle')?.checked;
 
-// Scroll to chant on play — but only if toggle is on
-audio.addEventListener('play', () => {
-  if (shouldScroll()) {
-    document.getElementById('chant-start')?.scrollIntoView({ behavior: 'smooth' });
-  }
-});
 
 audio.ontimeupdate = () => {
   const t = audio.currentTime;
@@ -123,9 +110,7 @@ audio.ontimeupdate = () => {
 
     if (t >= start && t < end) {
       el.style.backgroundColor = 'yellow';
-      if (shouldScroll()) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
+      
     } else {
       el.style.backgroundColor = '';
     }
