@@ -14,7 +14,7 @@ Description: Learn the sacred Ganapati mantra from the Yajurveda with audio and 
 </div>
 
 <div id="devanagari" style="display: block;">
-<p id="line1">ओम् श्री गुरुभ्यो नमः हरिः ओम्</p>
+<p id="line1">ॐ श्री गुरुभ्यो नमः हरिः ॐ</p>
 <p>  </p>
 <p id="line2">गणानां त्वा गणपतिग्ं हवामहे कविं कवीनामुपमश्रवस्तमम् ।</p>
 <p id="line3">ज्येष्ठराजं ब्रह्मणां ब्रह्मणस्पत आ नः शृण्वन्नूतिभिः सीद सादनम् ॥</p>
