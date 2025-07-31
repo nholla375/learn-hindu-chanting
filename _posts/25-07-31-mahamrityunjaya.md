@@ -1,5 +1,5 @@
 ---
-title: "Mahamrityunjaya Mantra – Rigveda Chant"
+title: "Mahamrityunjaya Mantra"
 date: 2025-07-29
 description: Learn the sacred Mahamrityunjaya mantra with audio, Devanagari and IAST text.
 ---
