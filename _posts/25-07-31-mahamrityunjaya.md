@@ -4,6 +4,8 @@ date: 2025-07-29
 description: Learn the sacred Mahamrityunjaya mantra with audio, Devanagari and IAST text.
 ---
 
+<!--more-->
+
 ## 🕉️ Chant Text
 
 <div id="script-toggle" style="margin-bottom: 1em;">
