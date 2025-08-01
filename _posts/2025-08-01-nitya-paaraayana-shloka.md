@@ -3,6 +3,7 @@ title: "Nitya Paaraayana Shloka (Concluding Chant)"
 date: 2025-08-1
 description: Concluding excerpt from the Dasha‑Śānti mantra asking for forgiveness and peace.
 ---
+<!--more-->
 
 ## 🕉️ Chant Text
 
