@@ -21,10 +21,10 @@ description: Concluding excerpt from the Dasha‑Śānti mantra asking for forgi
 </div>
 
 <div id="iast" style="display: none;">
-  <p id="line1-roman">ॐ ābhirgīrbhiryadatona ūnamāpyāyaya harivo vardhamānaḥ |</p>
+  <p id="line1-roman">oṃ ābhirgīrbhiryadatona ūnamāpyāyaya harivo vardhamānaḥ |</p>
   <p id="line2-roman">yadāstotrabhyo mahī gotrārujāsi bhūyiṣṭhabhājo adha te syāma |</p>
   <p id="line3-roman">brahmaprāvādiṣma tanno mahāsīt‌ |</p>
-  <p id="line4-roman">ॐ śāntiḥ śāntiḥ śāntiḥ ||</p>
+  <p id="line4-roman">oṃ śāntiḥ śāntiḥ śāntiḥ ||</p>
 </div>
 
 ---
