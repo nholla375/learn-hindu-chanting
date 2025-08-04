@@ -44,29 +44,29 @@ description: The Durga Sūkta with Devanāgarī / IAST toggle for study and chan
 <!-- IAST --------------------------------------------------------------->
 <div id="iast" style="display:none">
 
-<p id="v1-roman">om jaatavedase sunavaama soma maraatiiyato nidahaati vedaH|
-sa naH parShadati durgaaNi vishvaa naaveva sindhuM duritaatyagniH|</p>
+<p id="v1-roman">om jātavedase sunavāma soma marātīyato nidahāti vedaḥ|
+sa naḥ parṣadati durgāṇi viśvā nāveva sindhuṃ duritātyagniḥ|</p>
 
-<p id="v2-roman">taamagnivarNaaM tapasaa jvalantiiM vairochaniiM karmaphaleShu juShTaam|
-durgaaM deviiM sharaNamahaM prapadye sutarasi tarase namaH|</p>
+<p id="v2-roman">tāmagnivarṇāṃ tapasā jvalantīṃ vairocanīṃ karmaphaleṣu juṣṭām|
+durgāṃ devīṃ śaraṇamahaṃ prapadye sutarasi tarase namaḥ|</p>
 
-<p id="v3-roman">agne tvaM paarayaa navyo asmaan svastibhirati durgaaNi vishvaa|
-puushcha pRRithvii bahulaa na urvii bhavaa tokaaya tanayaaya shaMyoH|</p>
+<p id="v3-roman">agne tvaṃ pārayā navyo asmān svastibhirati durgāṇi viśvā|
+pūśca pṛthvī bahulā na urvī bhavā tokāya tanayāya śaṃyoḥ|</p>
 
-<p id="v4-roman">vishvaani no durgahaa jaatavedaH sindhuM na naavaa duritaatiparShi|
-agne atrivanmanasaa gRRiNaano'smaakaM bodhyavitaa tanuunaam|</p>
+<p id="v4-roman">viśvāni no durgahā jātavedaḥ sindhuṃ na nāvā duritātiparṣi|
+agne atrivanmanasā gṛṇāno'smākaṃ bodhyavitā tanūnām|</p>
 
-<p id="v5-roman">pRRitanaajitaM sahamaanamugramagniM huvema paramaatsadasthaat|
-sa naH parShadati durgaaNi vishvaa kShaamaddevo ati duritaatyagniH|</p>
+<p id="v5-roman">pṛtanājitaṃ sahamānamugramagniṃ huvema paramātsadasthāt|
+sa naḥ parṣadati durgāṇi viśvā kṣāmaddevo ati duritātyagniḥ|</p>
 
-<p id="v6-roman">pratnoShi kamiiDyo adhvareShu sanaachcha hotaa navyashcha satsi|
-svaaM chaagne tanuvaM piprayasvaasmabhyaM cha saubhagamaayajasva|</p>
+<p id="v6-roman">pratnoṣi kamīḍyo adhvareṣu sanācca hotā navyaśca satsi|
+svāṃ cāgne tanuvaṃ piprayasvāsmabhyaṃ ca saubhagamāyajasva|</p>
 
-<p id="v7-roman">gobhirjuShTamayujo ni ShiktaM taveMdra viShNoranusaMcharema|
-naakasya pRRiShThamabhi saMvasaano vaiShNaviiM loka ihaa maadayantaam||</p>
+<p id="v7-roman">gobhirjuṣṭamayujo ni ṣiktaṃ taveṃdra viṣṇoranusaṃcarema|
+nākasya pṛṣṭhamabhi saṃvasāno vaiṣṇavīṃ loka ihā mādayantām||</p>
 
-<p id="v8-roman">(om kaatyaayanaaya vidmahe kanyakumaari dhiimahi|
-tanno durgiH prachodayaat||)</p>
+<p id="v8-roman">(om kātyāyanāya vidmahe kanyakumāri dhīmahi|
+tanno durgiḥ pracodayāt||)</p>
 
 </div>
 
