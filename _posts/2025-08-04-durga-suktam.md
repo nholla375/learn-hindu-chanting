@@ -3,6 +3,7 @@ title: "Durga Sūktam – Vedic Hymn to the Fiery Mother"
 date: 2025-07-31
 description: The Durga Sūkta with Devanāgarī / IAST toggle for study and chanting practice.
 ---
+<!--more-->
 
 ## 🕉️ Chant Text
 
