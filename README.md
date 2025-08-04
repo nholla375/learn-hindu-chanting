@@ -1,27 +1,41 @@
-# Minimal Mistakes remote theme starter
+# Learn Hindu Chanting
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
-
-Contains basic configuration to get you a site with:
-
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
-
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+A small site for students to **hear, read, and learn** traditional Hindu chants in both **Devanagari** and **IAST**.  
+Hosted via **GitHub Pages** at <https://nholla375.github.io/learn-hindu-chanting/>.
 
 ---
 
-## Troubleshooting
+## Folder Guide
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+| Path | What’s inside |
+|------|---------------|
+| `/assets/audio/` | MP3 files for each chant |
+| `/assets/images/` | Optional images (e.g., deity icons) |
+| Root `.md` files | One Markdown page per chant (Durga Sūktam, Mahāmṛtyuñjaya, etc.) |
+| `_includes/` and other Jekyll folders | Auto-generated or theme files—no need to edit for new chants |
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+---
+
+## Adding a New Chant
+
+1. **Record** your chant → save as `my-chant.mp3`.
+2. **Copy** `template.md` (or any existing post) → rename to `my-chant.md`.
+3. Fill in:
+   - Front-matter title / date.
+   - Devanagari `<div>` and IAST `<div>`.
+   - Optional timestamps in the JavaScript array for line highlighting.
+4. Place the audio file in `/assets/audio/` and update the `<audio>` tag path.
+5. Commit + push to `main`. GitHub Pages will rebuild in about a minute.
+
+---
+
+## Local Preview (optional)
+
+```bash
+# one-time setup
+gem install bundler
+bundle install    # installs Jekyll
+
+# run site locally
+bundle exec jekyll serve
+# open http://localhost:4000 in your browser
