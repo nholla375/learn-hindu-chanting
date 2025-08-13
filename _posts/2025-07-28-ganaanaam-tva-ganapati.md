@@ -1,4 +1,5 @@
 ---
+layout: chant
 Title: "Gananam Tva Ganapatim – Yajurveda Chant"
 Date: 2025-07-28
 Description: Learn the sacred Ganapati mantra from the Yajurveda with audio and guidance.
@@ -68,54 +69,17 @@ This chant is particularly suited for **initiating study, rituals, or spiritual 
 ---
 
 <script>
-function showDeva() {
-  document.getElementById('devanagari').style.display = 'block';
-  document.getElementById('iast').style.display = 'none';
-  document.getElementById('btn-deva').style.fontWeight = 'bold';
-  document.getElementById('btn-iast').style.fontWeight = 'normal';
-}
-function showIAST() {
-  document.getElementById('devanagari').style.display = 'none';
-  document.getElementById('iast').style.display = 'block';
-  document.getElementById('btn-deva').style.fontWeight = 'normal';
-  document.getElementById('btn-iast').style.fontWeight = 'bold';
-}
-</script>
-
-<script>
-const audio = document.querySelector('audio');
-const devanagariVisible = () => document.getElementById('devanagari').style.display !== 'none';
-const shouldScroll = () => document.getElementById('autoscroll-toggle')?.checked;
-
-
-audio.ontimeupdate = () => {
-  const t = audio.currentTime;
-
-  const lines = [
-    { id: 'line1', roman: 'line1-roman', start: 0, end: 12 },
-    { id: 'line2', roman: 'line2-roman', start: 12, end: 36 },
-    { id: 'line3', roman: 'line3-roman', start: 36, end: 61 },
-    { id: 'line4', roman: 'line4-roman', start: 61, end: 72 },
-    { id: 'line5', roman: 'line5-roman', start: 72, end: 89 },
-    { id: 'line6', roman: 'line6-roman', start: 89, end: 98 },
-    { id: 'line7', roman: 'line7-roman', start: 98, end: 118 },
-    { id: 'line8', roman: 'line8-roman', start: 118, end: 138 },
-    { id: 'line9', roman: 'line9-roman', start: 138, end: 148 }
-  ];
-
-  lines.forEach(({ id, roman, start, end }) => {
-    const visibleId = devanagariVisible() ? id : roman;
-    const el = document.getElementById(visibleId);
-    if (!el) return;
-
-    if (t >= start && t < end) {
-      el.style.backgroundColor = 'yellow';
-      
-    } else {
-      el.style.backgroundColor = '';
-    }
-  });
-};
+const lines = [
+  { id: 'line1', roman: 'line1-roman', start: 0, end: 12 },
+  { id: 'line2', roman: 'line2-roman', start: 12, end: 36 },
+  { id: 'line3', roman: 'line3-roman', start: 36, end: 61 },
+  { id: 'line4', roman: 'line4-roman', start: 61, end: 72 },
+  { id: 'line5', roman: 'line5-roman', start: 72, end: 89 },
+  { id: 'line6', roman: 'line6-roman', start: 89, end: 98 },
+  { id: 'line7', roman: 'line7-roman', start: 98, end: 118 },
+  { id: 'line8', roman: 'line8-roman', start: 118, end: 138 },
+  { id: 'line9', roman: 'line9-roman', start: 138, end: 148 }
+];
 </script>
 
 

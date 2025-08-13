@@ -1,4 +1,5 @@
 ---
+layout: chant
 title: "Nitya Paaraayana Shloka (Concluding Chant)"
 date: 2025-08-1
 description: Concluding excerpt from the Dasha‑Śānti mantra asking for forgiveness and peace.
@@ -51,17 +52,3 @@ This mantra closes the chanting session with reverence and a sense of inner comp
 
 ---
 
-<script>
-function showDeva() {
-  document.getElementById('devanagari').style.display = 'block';
-  document.getElementById('iast').style.display = 'none';
-  document.getElementById('btn-deva').style.fontWeight = 'bold';
-  document.getElementById('btn-iast').style.fontWeight = 'normal';
-}
-function showIAST() {
-  document.getElementById('devanagari').style.display = 'none';
-  document.getElementById('iast').style.display = 'block';
-  document.getElementById('btn-deva').style.fontWeight = 'normal';
-  document.getElementById('btn-iast').style.fontWeight = 'bold';
-}
-</script>

@@ -1,4 +1,5 @@
 ---
+layout: chant
 title: "Durga Sūktam"
 date: 2025-07-31
 description: The Durga Sūkta with Devanāgarī / IAST toggle for study and chanting practice.
@@ -107,17 +108,3 @@ tanno durgiḥ pracodayāt||)</p>
 
 ---
 
-<script>
-function showDeva(){
-  document.getElementById('devanagari').style.display='block';
-  document.getElementById('iast').style.display='none';
-  document.getElementById('btn-deva').style.fontWeight='bold';
-  document.getElementById('btn-iast').style.fontWeight='normal';
-}
-function showIAST(){
-  document.getElementById('devanagari').style.display='none';
-  document.getElementById('iast').style.display='block';
-  document.getElementById('btn-deva').style.fontWeight='normal';
-  document.getElementById('btn-iast').style.fontWeight='bold';
-}
-</script>
