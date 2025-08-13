@@ -39,3 +39,5 @@ bundle install    # installs Jekyll
 # run site locally
 bundle exec jekyll serve
 # open http://localhost:4000 in your browser
+
+```
