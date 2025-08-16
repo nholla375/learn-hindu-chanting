@@ -32,7 +32,7 @@ description: Concluding excerpt from the Dasha‑Śānti mantra asking for forgi
 ## 🔊 Listen to the Chant
 
 <audio controls>
-  <source src="/learn-hindu-chanting/assets/audio/dasasanti-conclusion.mp3" type="audio/mpeg">
+  <source src="/learn-hindu-chanting/assets/audio/abhir-girbhir.mp3" type="audio/mpeg">
 </audio>
 
 ---
@@ -64,4 +64,32 @@ function showIAST() {
   document.getElementById('btn-deva').style.fontWeight = 'normal';
   document.getElementById('btn-iast').style.fontWeight = 'bold';
 }
+</script>
+
+<script>
+const audio = document.querySelector('audio');
+const devanagariVisible = () => document.getElementById('devanagari').style.display !== 'none';
+
+audio.ontimeupdate = () => {
+  const t = audio.currentTime;
+
+  const lines = [
+    { id: 'line1', roman: 'line1-roman', start: 0, end: 27 },
+    { id: 'line2', roman: 'line2-roman', start: 27, end: 52 },
+    { id: 'line3', roman: 'line3-roman', start: 52, end: 66 },
+    { id: 'line1', roman: 'line1-roman', start: 66, end: 74 }
+  ];
+
+  lines.forEach(({ id, roman, start, end }) => {
+    const visibleId = devanagariVisible() ? id : roman;
+    const el = document.getElementById(visibleId);
+    if (!el) return;
+
+    if (t >= start && t < end) {
+      el.style.backgroundColor = 'yellow';
+    } else {
+      el.style.backgroundColor = '';
+    }
+  });
+};
 </script>
