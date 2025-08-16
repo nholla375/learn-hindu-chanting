@@ -78,12 +78,9 @@ tanno durgiḥ pracodayāt||)</p>
 
 ## 🔊 Listen to the Chant *(audio coming soon)*
 
-<!-- When you record, place the file here and change the src path -->
-<!-- <audio controls>
+<audio controls>
   <source src="/learn-hindu-chanting/assets/audio/durga-suktam.mp3" type="audio/mpeg">
 </audio> -->
-
-*Audio will be added after recording.*
 
 ---
 
@@ -120,4 +117,36 @@ function showIAST(){
   document.getElementById('btn-deva').style.fontWeight='normal';
   document.getElementById('btn-iast').style.fontWeight='bold';
 }
+</script>
+
+<script>
+const audio = document.querySelector('audio');
+const devanagariVisible = () => document.getElementById('devanagari').style.display !== 'none';
+
+audio.ontimeupdate = () => {
+  const t = audio.currentTime;
+
+  const lines = [
+    { id: 'line1', roman: 'line1-roman', start: 0, end: 46 },
+    { id: 'line2', roman: 'line2-roman', start: 46, end: 89 },
+    { id: 'line3', roman: 'line3-roman', start: 89, end: 133 },
+    { id: 'line4', roman: 'line4-roman', start: 133, end: 176 },
+    { id: 'line5', roman: 'line5-roman', start: 176, end: 220 },
+    { id: 'line6', roman: 'line6-roman', start: 220, end: 262 },
+    { id: 'line7', roman: 'line7-roman', start: 262, end: 303 },
+    { id: 'line8', roman: 'line8-roman', start: 303, end: 335 }
+  ];
+
+  lines.forEach(({ id, roman, start, end }) => {
+    const visibleId = devanagariVisible() ? id : roman;
+    const el = document.getElementById(visibleId);
+    if (!el) return;
+
+    if (t >= start && t < end) {
+      el.style.backgroundColor = 'yellow';
+    } else {
+      el.style.backgroundColor = '';
+    }
+  });
+};
 </script>
