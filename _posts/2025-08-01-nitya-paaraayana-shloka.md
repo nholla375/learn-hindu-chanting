@@ -77,7 +77,7 @@ audio.ontimeupdate = () => {
     { id: 'line1', roman: 'line1-roman', start: 0, end: 27 },
     { id: 'line2', roman: 'line2-roman', start: 27, end: 52 },
     { id: 'line3', roman: 'line3-roman', start: 52, end: 66 },
-    { id: 'line1', roman: 'line1-roman', start: 66, end: 74 }
+    { id: 'line4', roman: 'line4-roman', start: 66, end: 74 }
   ];
 
   lines.forEach(({ id, roman, start, end }) => {
