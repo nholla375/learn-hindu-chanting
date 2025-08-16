@@ -28,7 +28,7 @@ description: Learn the sacred Mahamrityunjaya mantra with audio, Devanagari and 
 ## 🔊 Listen to the Chant
 
 <audio controls>
-  <source src="/learn-hindu-chanting/assets/audio/mahamrityunjaya.mp3" type="audio/mpeg">
+  <source src="/learn-hindu-chanting/assets/audio/mahamryuthyunjaya-mantra.mp3" type="audio/mpeg">
 </audio>
 
 🙏 Chant slowly, repeat with intention, and feel free to toggle between scripts for clarity.
@@ -71,8 +71,8 @@ audio.ontimeupdate = () => {
   const t = audio.currentTime;
 
   const lines = [
-    { id: 'line1', roman: 'line1-roman', start: 0, end: 6 },
-    { id: 'line2', roman: 'line2-roman', start: 6, end: 14 }
+    { id: 'line1', roman: 'line1-roman', start: 0, end: 17 },
+    { id: 'line2', roman: 'line2-roman', start: 17, end: 35 }
   ];
 
   lines.forEach(({ id, roman, start, end }) => {
