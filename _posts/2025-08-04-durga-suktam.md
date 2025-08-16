@@ -80,7 +80,7 @@ tanno durgiḥ pracodayāt||)</p>
 
 <audio controls>
   <source src="/learn-hindu-chanting/assets/audio/durga-suktam.mp3" type="audio/mpeg">
-</audio> -->
+</audio>
 
 ---
 
