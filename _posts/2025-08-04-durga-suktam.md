@@ -19,28 +19,28 @@ description: The Durga Sūkta with Devanāgarī / IAST toggle for study and chan
 <!-- Devanagari --------------------------------------------------------->
 <div id="devanagari" style="display:block">
 
-<p id="v1">ॐ जातवेदसे सुनवाम सोम मरातीयतो निदहाति वेदः।
+<p id="line1">ॐ जातवेदसे सुनवाम सोम मरातीयतो निदहाति वेदः।
 स नः पर्षदति दुर्गाणि विश्वा नावेव सिन्धुं दुरितात्यग्निः।</p>
 
-<p id="v2">तामग्निवर्णां तपसा ज्वलन्तीं वैरोचनीं कर्मफलेषु जुष्टाम्।
+<p id="line2">तामग्निवर्णां तपसा ज्वलन्तीं वैरोचनीं कर्मफलेषु जुष्टाम्।
 दुर्गां देवीं शरणमहं प्रपद्ये सुतरसि तरसे नमः।</p>
 
-<p id="v3">अग्ने त्वं पारया नव्यो अस्मान् स्वस्तिभिरति दुर्गाणि विश्वा।
+<p id="line3">अग्ने त्वं पारया नव्यो अस्मान् स्वस्तिभिरति दुर्गाणि विश्वा।
 पूश्च पृथ्वी बहुला न उर्वी भवा तोकाय तनयाय शंयोः।</p>
 
-<p id="v4">विश्वानि नो दुर्गहा जातवेदः सिन्धुं न नावा दुरितातिपर्षि।
+<p id="line4">विश्वानि नो दुर्गहा जातवेदः सिन्धुं न नावा दुरितातिपर्षि।
 अग्ने अत्रिवन्मनसा गृणानोऽस्माकं बोध्यविता तनूनाम्।</p>
 
-<p id="v5">पृतनाजितं सहमानमुग्रमग्निं हुवेम परमात्सदस्थात्।
+<p id="line5">पृतनाजितं सहमानमुग्रमग्निं हुवेम परमात्सदस्थात्।
 स नः पर्षदति दुर्गाणि विश्वा क्षामद्देवो अति दुरितात्यग्निः।</p>
 
-<p id="v6">प्रत्नोषि कमीड्यो अध्वरेषु सनाच्च होता नव्यश्च सत्सि।
+<p id="line6">प्रत्नोषि कमीड्यो अध्वरेषु सनाच्च होता नव्यश्च सत्सि।
 स्वां चाग्ने तनुवं पिप्रयस्वास्मभ्यं च सौभगमायजस्व।</p>
 
-<p id="v7">गोभिर्जुष्टमयुजो नि षिक्तं तवेंद्र विष्णोरनुसंचरेम।
+<p id="line7">गोभिर्जुष्टमयुजो नि षिक्तं तवेंद्र विष्णोरनुसंचरेम।
 नाकस्य पृष्ठमभि संवसानो वैष्णवीं लोक इहा मादयन्ताम्॥</p>
 
-<p id="v8">(ॐ कात्यायनाय विद्महे कन्यकुमारि धीमहि।
+<p id="line8">(ॐ कात्यायनाय विद्महे कन्यकुमारि धीमहि।
 तन्नो दुर्गिः प्रचोदयात्॥)</p>
 
 </div>
@@ -48,28 +48,28 @@ description: The Durga Sūkta with Devanāgarī / IAST toggle for study and chan
 <!-- IAST --------------------------------------------------------------->
 <div id="iast" style="display:none">
 
-<p id="v1-roman">om jātavedase sunavāma soma marātīyato nidahāti vedaḥ|
+<p id="line1-roman">om jātavedase sunavāma soma marātīyato nidahāti vedaḥ|
 sa naḥ parṣadati durgāṇi viśvā nāveva sindhuṃ duritātyagniḥ|</p>
 
-<p id="v2-roman">tāmagnivarṇāṃ tapasā jvalantīṃ vairocanīṃ karmaphaleṣu juṣṭām|
+<p id="line2-roman">tāmagnivarṇāṃ tapasā jvalantīṃ vairocanīṃ karmaphaleṣu juṣṭām|
 durgāṃ devīṃ śaraṇamahaṃ prapadye sutarasi tarase namaḥ|</p>
 
-<p id="v3-roman">agne tvaṃ pārayā navyo asmān svastibhirati durgāṇi viśvā|
+<p id="line3-roman">agne tvaṃ pārayā navyo asmān svastibhirati durgāṇi viśvā|
 pūśca pṛthvī bahulā na urvī bhavā tokāya tanayāya śaṃyoḥ|</p>
 
-<p id="v4-roman">viśvāni no durgahā jātavedaḥ sindhuṃ na nāvā duritātiparṣi|
+<p id="line4-roman">viśvāni no durgahā jātavedaḥ sindhuṃ na nāvā duritātiparṣi|
 agne atrivanmanasā gṛṇāno'smākaṃ bodhyavitā tanūnām|</p>
 
-<p id="v5-roman">pṛtanājitaṃ sahamānamugramagniṃ huvema paramātsadasthāt|
+<p id="line5-roman">pṛtanājitaṃ sahamānamugramagniṃ huvema paramātsadasthāt|
 sa naḥ parṣadati durgāṇi viśvā kṣāmaddevo ati duritātyagniḥ|</p>
 
-<p id="v6-roman">pratnoṣi kamīḍyo adhvareṣu sanācca hotā navyaśca satsi|
+<p id="line6-roman">pratnoṣi kamīḍyo adhvareṣu sanācca hotā navyaśca satsi|
 svāṃ cāgne tanuvaṃ piprayasvāsmabhyaṃ ca saubhagamāyajasva|</p>
 
-<p id="v7-roman">gobhirjuṣṭamayujo ni ṣiktaṃ taveṃdra viṣṇoranusaṃcarema|
+<p id="line7-roman">gobhirjuṣṭamayujo ni ṣiktaṃ taveṃdra viṣṇoranusaṃcarema|
 nākasya pṛṣṭhamabhi saṃvasāno vaiṣṇavīṃ loka ihā mādayantām||</p>
 
-<p id="v8-roman">(om kātyāyanāya vidmahe kanyakumāri dhīmahi|
+<p id="line8-roman">(om kātyāyanāya vidmahe kanyakumāri dhīmahi|
 tanno durgiḥ pracodayāt||)</p>
 
 </div>
