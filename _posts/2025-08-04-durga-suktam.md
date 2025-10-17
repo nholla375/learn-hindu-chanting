@@ -92,11 +92,11 @@ tanno durgiḥ pracodayāt||)</p>
 
 | Verse(s) | Core theme | Essence |
 |----------|-----------|---------|
-| 1 | **Agni as Jātaveda** (source of all knowledge) | We press the soma of devotion so that blazing wisdom burns away ignorance and carries us over every danger like a sturdy boat on a vast sea. :contentReference[oaicite:0]{index=0} |
-| 2 | **Fiery, tapas-filled Mother** | Durga is “fire-coloured,” blazing with tapas; surrendering to her feet lets us cross safely and swiftly (“sutarasi”). :contentReference[oaicite:1]{index=1} |
-| 3 – 4 | **Universal guardian** | Invoked as the friendly Agni who grants **svasti** (well-being) and wards off all “durgāṇi” (hard-to-cross perils), preserving both family and future. :contentReference[oaicite:2]{index=2} |
-| 5 | **Victor in every battle** | She is the terrible, invincible fire that crushes inner and outer foes, guiding us beyond the field of suffering. :contentReference[oaicite:3]{index=3} |
-| 6 – 7 | **Giver of prosperity & ascent** | As the timeless Hotṛ-fire, she bestows auspicious fortune and lifts us toward the “summit of the heavens,” the **Vaiṣṇava realm** of higher consciousness. :contentReference[oaicite:4]{index=4} |
+| 1 | **Agni as Jātaveda** (source of all knowledge) | We press the soma of devotion so that blazing wisdom burns away ignorance and carries us over every danger like a sturdy boat on a vast sea.|
+| 2 | **Fiery, tapas-filled Mother** | Durga is “fire-coloured,” blazing with tapas; surrendering to her feet lets us cross safely and swiftly (“sutarasi”).|
+| 3 – 4 | **Universal guardian** | Invoked as the friendly Agni who grants **svasti** (well-being) and wards off all “durgāṇi” (hard-to-cross perils), preserving both family and future.|
+| 5 | **Victor in every battle** | She is the terrible, invincible fire that crushes inner and outer foes, guiding us beyond the field of suffering.|
+| 6 – 7 | **Giver of prosperity & ascent** | As the timeless Hotṛ-fire, she bestows auspicious fortune and lifts us toward the “summit of the heavens,” the **Vaiṣṇava realm** of higher consciousness.|
 | 8 | **Threefold Peace** | The hymn closes with “ॐ śāntiḥ śāntiḥ śāntiḥ,” inviting quietude in body, mind, and cosmic space. |
 
 **In one line:**  
