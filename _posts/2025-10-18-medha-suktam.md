@@ -59,7 +59,7 @@ description: The Medhā Sūkta with Devanāgarī / IAST toggle for study and cha
 
 <p id="line7-roman">apsarāsu ca yā medhā gandharveṣu ca yan manaḥ |</p>
 
-<p id="line8-roman">daivī medhā sarasvatī sā māṃ medhā surabhir juṣatā svāhā ||</p>
+<p id="line8-roman">daivī medhā sarasvatī sā māṃ medhā surabhir juṣatāgas svāhā ||</p>
 
 <p id="line9-roman">ā māṃ medhā surabhir viśvarūpā hiraṇyavarṇā jagatī jagamyā |</p>
 
