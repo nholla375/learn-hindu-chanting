@@ -16,22 +16,27 @@ description: The Medhā Sūkta with Devanāgarī / IAST toggle for study and cha
 <!-- Devanagari --------------------------------------------------------->
 <div id="devanagari" style="display:block">
 
-<p id="line1">ॐ मेधादेवी जुषमाणा न आगाद्विश्वाची भद्रा सुमनस्यमाना।<br>
-त्वया जुष्टा नुदमाना दुरुक्तान् बृहत् वदेम विदथे सुवीराः।</p>
+<p id="line1">ॐ मेधादेवी जुषमाणा न आगाद्विश्वाची भद्रा सुमनस्यमाना।</p>
 
-<p id="line2">त्वया जुष्टः ऋषिर्भवति देवि त्वया ब्रह्मा अगतश्रीरुत त्वया।<br>
-त्वया जुष्टश्चित्रं विन्दते वसु सानो जुषस्व द्रविणो न मेधे।</p>
+<p id="line2">त्वया जुष्टा नुदमाना दुरुक्तान् बृहत् वदेम विदथे सुवीराः।</p>
 
-<p id="line3">मेधां म इन्द्रो ददातु मेधां देवी सरस्वती।<br>
-मेधां म इन्द्रो अश्विनावुभावाधत्तां पुष्करस्रजा।</p>
+<p id="line3">त्वया जुष्टः ऋषिर्भवति देवि त्वया ब्रह्मा अगतश्रीरुत त्वया।</p>
 
-<p id="line4">अप्सरासु च या मेधा गन्धर्वेषु च यन्मनः।<br>
-दैवी मेधा सरस्वती सा मां मेधा सुरभिर्जुषता स्वाहा।</p>
+<p id="line4">त्वया जुष्टश्चित्रं विन्दते वसु सानो जुषस्व द्रविणो न मेधे।</p>
 
-<p id="line5">आ मां मेधा सुरभिर्विश्वरूपा हिरण्यवर्णा जगती जगम्या।<br>
-ऊर्जस्वती पयसा पिन्वमाना सा मां मेधा सुप्रतीका जुषन्ताम्।</p>
+<p id="line5">मेधां म इन्द्रो ददातु मेधां देवी सरस्वती।</p>
 
-<p id="line6">मयि मेधां मयि प्रजां मय्यग्निस्तेजो दधातु।<br>
+<p id="line6">मेधां मे अश्विनावुभावाधत्तां पुष्करस्रजा।</p>
+
+<p id="line7">अप्सरासु च या मेधा गन्धर्वेषु च यन्मनः।</p>
+
+<p id="line8">दैवी मेधा सरस्वती सा मां मेधा सुरभिर्जुषतागस् स्वाहा।</p>
+
+<p id="line9">आ मां मेधा सुरभिर्विश्वरूपा हिरण्यवर्णा जगती जगम्या।</p>
+
+<p id="line10">ऊर्जस्वती पयसा पिन्वमाना सा मां मेधा सुप्रतीका जुषन्ताम्।</p>
+
+<p id="line11">मयि मेधां मयि प्रजां मय्यग्निस्तेजो दधातु।<br>
 मयि मेधां मयि प्रजां मयीन्द्र इन्द्रियं दधातु।<br>
 मयि मेधां मयि प्रजां मयि सूर्यः भ्राजो दधातु।</p>
 
@@ -40,22 +45,27 @@ description: The Medhā Sūkta with Devanāgarī / IAST toggle for study and cha
 <!-- IAST --------------------------------------------------------------->
 <div id="iast" style="display:none">
 
-<p id="line1-roman">om medhādevī juṣamāṇā na āgādviśvācī bhadrā sumanasyamānā |<br>
-tvayā juṣṭā nudamānā duruktān bṛhad vadema vidathe suvirāḥ ||</p>
+<p id="line1-roman">om medhādevī juṣamāṇā na āgādviśvācī bhadrā sumanasyamānā |</p>
 
-<p id="line2-roman">tvayā juṣṭa ṛṣir bhavati devi tvayā brahmā agataśrīr uta tvayā |<br>
-tvayā juṣṭaś citraṃ vindate vasu sā no juṣasva draviṇo na medhe ||</p>
+<p id="line2-roman">tvayā juṣṭā nudamānā duruktān bṛhad vadema vidathe suvirāḥ ||</p>
 
-<p id="line3-roman">medhāṃ ma indro dadātu medhāṃ devī sarasvatī |<br>
-medhāṃ ma indro aśvināv ubhāv ādhattāṃ puṣkarasrajā ||</p>
+<p id="line3-roman">tvayā juṣṭa ṛṣir bhavati devi tvayā brahmā agataśrīr uta tvayā |</p>
 
-<p id="line4-roman">apsarāsu ca yā medhā gandharveṣu ca yan manaḥ |<br>
-daivī medhā sarasvatī sā māṃ medhā surabhir juṣatā svāhā ||</p>
+<p id="line4-roman">tvayā juṣṭaś citraṃ vindate vasu sā no juṣasva draviṇo na medhe ||</p>
 
-<p id="line5-roman">ā māṃ medhā surabhir viśvarūpā hiraṇyavarṇā jagatī jagamyā |<br>
-ūrjasvatī payasā pinvāmānā sā māṃ medhā supratīkā juṣantām ||</p>
+<p id="line5-roman">medhāṃ ma indro dadātu medhāṃ devī sarasvatī |</p>
 
-<p id="line6-roman">mayi medhāṃ mayi prajāṃ mayy agnis tejo dadhātu |<br>
+<p id="line6-roman">medhāṃ me aśvināv ubhāv ādhattāṃ puṣkarasrajā ||</p>
+
+<p id="line7-roman">apsarāsu ca yā medhā gandharveṣu ca yan manaḥ |</p>
+
+<p id="line8-roman">daivī medhā sarasvatī sā māṃ medhā surabhir juṣatā svāhā ||</p>
+
+<p id="line9-roman">ā māṃ medhā surabhir viśvarūpā hiraṇyavarṇā jagatī jagamyā |</p>
+
+<p id="line10-roman">ūrjasvatī payasā pinvāmānā sā māṃ medhā supratīkā juṣantām|| </p>
+
+<p id="line11-roman">mayi medhāṃ mayi prajāṃ mayy agnis tejo dadhātu |<br>
 mayi medhāṃ mayi prajāṃ mayīndra indriyaṃ dadhātu |<br>
 mayi medhāṃ mayi prajāṃ mayi sūryaḥ bhrājo dadhātu ||</p>
 
@@ -63,7 +73,7 @@ mayi medhāṃ mayi prajāṃ mayi sūryaḥ bhrājo dadhātu ||</p>
 
 ---
 
-## 🔊 Listen to the Chant *(audio coming soon)*
+## 🔊 Listen to the Chant
 
 <audio controls>
   <source src="/learn-hindu-chanting/assets/audio/medha-suktam.mp3" type="audio/mpeg">
@@ -116,13 +126,17 @@ audio.ontimeupdate = () => {
   const t = audio.currentTime;
 
   const lines = [
-    { id: 'line1', roman: 'line1-roman', start: 0, end: 40 },
-    { id: 'line2', roman: 'line2-roman', start: 40, end: 80 },
-    { id: 'line3', roman: 'line3-roman', start: 80, end: 120 },
-    { id: 'line4', roman: 'line4-roman', start: 120, end: 160 },
-    { id: 'line5', roman: 'line5-roman', start: 160, end: 200 },
-    { id: 'line6', roman: 'line6-roman', start: 200, end: 240 },
-    { id: 'line7', roman: 'line7-roman', start: 240, end: 270 }
+    { id: 'line1', roman: 'line1-roman', start: 0, end: 23 },
+    { id: 'line2', roman: 'line2-roman', start: 23, end: 46 },
+    { id: 'line3', roman: 'line3-roman', start: 46, end: 67 },
+    { id: 'line4', roman: 'line4-roman', start: 67, end: 86 },
+    { id: 'line5', roman: 'line5-roman', start: 86, end: 103 },
+    { id: 'line6', roman: 'line6-roman', start: 103, end: 121 },
+    { id: 'line7', roman: 'line7-roman', start: 121, end: 137 },
+    { id: 'line8', roman: 'line8-roman', start: 137, end: 161 },
+    { id: 'line9', roman: 'line9-roman', start: 161, end: 183 },
+    { id: 'line10', roman: 'line10-roman', start: 183, end: 206 },
+    { id: 'line11', roman: 'line11-roman', start: 206, end: 251 }
   ];
 
   lines.forEach(({ id, roman, start, end }) => {
