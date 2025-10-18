@@ -145,4 +145,10 @@ audio.ontimeupdate = () => {
     if (!el) return;
 
     if (t >= start && t < end) {
-      el.style.backgroundColor = 'yellow'
+      el.style.backgroundColor = 'yellow';
+    } else {
+      el.style.backgroundColor = '';
+    }
+  });
+};
+</script>
